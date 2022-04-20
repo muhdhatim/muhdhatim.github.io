@@ -1,0 +1,72 @@
+.header .bg.resume {
+    background-image: url(/assets/images/19362653.jpg);
+    background-size: contain;
+    opacity: 80%;
+}
+
+.bg-intro{
+    width: auto;
+    background: white;
+    opacity: 90%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.resume .radial-bar.radial-50 {
+    background-image: linear-gradient(270deg, #1f232c 50%, transparent 50%, transparent),linear-gradient(270deg, #1f232c 50%, #e3e3e3 50%, #e3e3e3);
+}
+
+.resume .radial-bar.radial-90 {
+    background-image: linear-gradient(54deg, #1f232c 50%, transparent 50%, transparent),linear-gradient(270deg, #1f232c 50%, #e3e3e3 50%, #e3e3e3);
+}
+
+.resume .radial-bar.radial-100 {
+    background-image: linear-gradient(90deg, #1f232c 50%, transparent 50%, transparent),linear-gradient(270deg, #1f232c 50%, #e3e3e3 50%, #e3e3e3);
+}
+
+/* Padding */
+.pt-10{
+    padding-top: 10px;
+}
+.pt-15{
+    padding-top: 15px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pt-25{
+    padding-top: 25px;
+}
+.pt-30{
+    padding-top: 30px;
+}
+.pt-50{
+    padding-top: 50px;
+}
+.pt-100{
+    padding-top: 100px;
+}
+
+
+/* Margin */
+.mt-10{
+    margin-top: 10px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-25{
+    margin-top: 25px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mt-100{
+    margin-top: 100px;
+}
