@@ -1,7 +1,21 @@
+section{
+    border-radius: 0.25rem !important;
+    background-color: #fff !important;
+    padding: 1rem !important;
+    margin-bottom: 3rem !important;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;
+}
+
+.bg-pink {
+    background-color: unset;
+}
+
 .header .bg.resume {
-    background-image: url(/assets/images/19362653.jpg);
-    background-size: contain;
-    opacity: 80%;
+    /* background-image: url('/assets/images/19362653.jpg'); */
+    background: linear-gradient(#ffffff, #ebebeb);
+    background-image: unset;
+    /* background-size: contain;
+    opacity: 80%; */
 }
 
 .bg-intro{
@@ -69,4 +83,43 @@
 }
 .mt-100{
     margin-top: 100px;
+}
+
+.ul-default-style{
+    list-style-type: disc;
+}
+
+p.company-name{
+    font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1920 - 300)));
+    color: #b1b1b1;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 10px !important;    
+}
+
+.social{
+    text-align:center;
+    width:120px;
+    height:120px;
+    float:left;
+    background:rgb(255,255,255);
+    border:1px solid rgb(204,204,204);
+    box-shadow:0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius:5px;
+    margin:0 10px 10px 0;
+    padding:17px;
+}
+.google-pluse:hover{background:#DD4B39;color:#FFF;}
+.facebook:hover{background:#3b5998;color:#FFF;}
+.twitter:hover{background:#00acee;color:#FFF;}
+.pinterest:hover{background:#c8232c;color:#FFF;}
+.linkedin:hover{background:#0e76a8;color:#FFF;}
+.skype:hover{background:#00aff0;color:#FFF;}
+.youtube:hover{background:#c4302b;color:#FFF;}
+.tumblr:hover{background:#34526f;color:#FFF;}
+
+.reset-a{
+    font-size: unset !important;
+    color: unset !important;
+    text-decoration: unset !important;
 }
